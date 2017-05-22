@@ -47,7 +47,7 @@ footer{
 @media only screen and (max-width: 400px) and (min-width:200px){
     
     .icons{
-display:block;
+visibility:hidden;
     }
 }
 
