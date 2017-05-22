@@ -49,9 +49,8 @@ footer{
     .icons{
 display:block;
     }
-    .classy{
-visibility:hidden;
 }
+
 
 .classy{
 margin-left: 220px;
@@ -78,4 +77,10 @@ p{
     font-family: monospace;
     text-align: center;
     
+}
+
+@media only screen and (max-width: 400px) and (min-width:200px){
+    .classy{
+visibility:hidden;
+}
 }
